@@ -1,0 +1,132 @@
+1483585725a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:2870:"==
+<div class="lt-row row">
+  <div class="lt-col col s12">
+    <div class="lt-slider slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/home_tv_install_nj.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+         
+            <h2 class="lt-slider-title">Free Bracket w/ Install!</h2>
+            <h5 class="lt-slider-subtitle">Get your quote now!</h5>
+            <img class="free-bracket-image" src="{{ 'assets/img/pages/home/slideshow/free_bracket.png'|theme }}" alt="Free Bracket with TV Install">
+            <div class="lt-slider-button">
+              <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/wall_mounted_tv.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">Sound Bar? Home Theatre Install?</h2>
+            <h5 class="lt-slider-subtitle">We've got you covered.</h5>
+            <div class="lt-slider-button">
+             <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+             <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/fireplace_tv_install.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">Wall Mount on Fireplace?</h2>
+            <h5 class="lt-slider-subtitle">No problem, been there done that.</h5>
+            <div class="lt-slider-button">
+             <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+.lt-slider-links {
+    font-size: 1.4em;
+}
+img.free-bracket-image {
+    width: 200px !important;
+}
+.lt-slider-button a {
+    font-weight: bold;
+}
+@media (min-width:600px)  {
+    img.free-bracket-image {
+    width: 300px !important;
+}}
+
+</style>";s:5:"mtime";i:1481181162;s:6:"markup";s:2867:"<div class="lt-row row">
+  <div class="lt-col col s12">
+    <div class="lt-slider slider fullscreen">
+      <ul class="slides">
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/home_tv_install_nj.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+         
+            <h2 class="lt-slider-title">Free Bracket w/ Install!</h2>
+            <h5 class="lt-slider-subtitle">Get your quote now!</h5>
+            <img class="free-bracket-image" src="{{ 'assets/img/pages/home/slideshow/free_bracket.png'|theme }}" alt="Free Bracket with TV Install">
+            <div class="lt-slider-button">
+              <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/wall_mounted_tv.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">Sound Bar? Home Theatre Install?</h2>
+            <h5 class="lt-slider-subtitle">We've got you covered.</h5>
+            <div class="lt-slider-button">
+             <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+             <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <img src="{{ 'assets/img/pages/home/slideshow/fireplace_tv_install.jpg'|theme }}" alt="image">
+          <div class="caption center-align">
+            <h2 class="lt-slider-title">Wall Mount on Fireplace?</h2>
+            <h5 class="lt-slider-subtitle">No problem, been there done that.</h5>
+            <div class="lt-slider-button">
+             <a href="#" target="_blank" class="waves-effect waves-light btn-large primary-color-background">CALL NOW<i class="material-icons right">phone</i></a>
+            </div>
+            <div class="lt-slider-links">
+              <a href="tel:7329029990" target="_blank">732.902.9990</a> or <a href="#" target="_blank">GET QUOTE</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<style>
+.lt-slider-links {
+    font-size: 1.4em;
+}
+img.free-bracket-image {
+    width: 200px !important;
+}
+.lt-slider-button a {
+    font-weight: bold;
+}
+@media (min-width:600px)  {
+    img.free-bracket-image {
+    width: 300px !important;
+}}
+
+</style>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}

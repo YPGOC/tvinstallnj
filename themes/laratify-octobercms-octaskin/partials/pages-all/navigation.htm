@@ -1,0 +1,31 @@
+==
+<div class="lt-navbar navbar-fixed">
+  <nav class="lt-no-background">
+    <div class="nav-wrapper">
+      <div class="lt-container container">
+        <a href="{{ 'home'|page }}" class="brand-logo white-text">TV<span>Install</span>NJ</a>
+        <a href="#" data-activates="mobile-menu" class="lt-mobile-toggle button-collapse"><i class="fa fa-server"></i></a>
+        <ul class="right hide-on-med-and-down">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+          <li class="{% if this.page.id == 'getquote' %}active{% endif %}"><a href="{{ 'getquote'|page }}">Get Quote</a></li>
+          <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li>
+           <script src="https://form.jotform.com/static/feedback2.js?3.3.REV" type="text/javascript"> var JFL_63541219480151 = new JotformFeedback({ formId: '63541219480151', base: 'https://form.jotform.com/', windowTitle: 'Request a Call', background: '#ff5722', fontColor: '#FFFFFF', type: 'false', height: 520, width: 600, openOnLoad: false }); </script>
+          <li class="active phone-number"><a class="lightbox-63541219480151">
+            <!-- <a href="http://tvinstallnj.dev/getquote"> -->
+              <h6>CALL/TEXT FOR QUOTE</h6>
+              <p>732-770-7099</p>
+            </a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-menu">
+          <li class="{% if this.page.id == 'home' %}active{% endif %}"><a href="{{ 'home'|page }}">Home</a></li>
+          <li class="{% if this.page.id == 'getquote' %}active{% endif %}"><a href="{{ 'getquote'|page }}">Get Quote</a></li>
+          <li class="{% if this.page.id == 'about' %}active{% endif %}"><a href="{{ 'about'|page }}">About</a></li>
+          <li class="{% if this.page.id == 'portfolio' %}active{% endif %}"><a href="{{ 'portfolio'|page }}">Portfolio</a></li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>

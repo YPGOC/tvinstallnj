@@ -1,0 +1,24 @@
+.lt-slider .slides li:before {
+    background: rgba(0, 0, 0, 0.45);
+}
+
+.services p {
+	font-size: 18px;
+}
+
+.phone-number {
+	text-align:right;
+}
+
+.phone-number a{
+	line-height: 1;
+}
+
+.phone-number h6{
+	margin-bottom: 0;
+	padding-top: 3px;
+}
+
+.phone-number p{
+	font-size: 1.8em;
+}

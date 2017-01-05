@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0px;
+	background: #00F url("../images/bg.jpg") no-repeat fixed;
+	margin: 0 0 50px 0;
+	}
+
+.text1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+}
+
+.question {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	font-weight:300;
+}
+
+.answer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000;
+
+}
+
+.footer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #fff;
+}
+
+.questions {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #2B230F;
+	font-weight: bold;
+}
+
+.location {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #2B230F;
+	font-weight: bold;
+}
+
+.prize {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #2B230F;
+	font-weight: bold;
+}
+
+a:link { text-decoration: none; color: #ffff03; font-size: 12px; }
+a:active { text-decoration: none; color: #ffffff; font-size: 12px; }
+a:hover { text-decoration: underline; color: #ffffff; font-size: 12px; }
+a:visited { text-decoration: none; color: #ffff03; font-size: 12px; }
