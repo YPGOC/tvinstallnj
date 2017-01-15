@@ -1,4 +1,4 @@
-1483585725a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:2870:"==
+1484457406a:1:{s:24:"pages-home/slideshow.htm";a:6:{s:8:"fileName";s:24:"pages-home/slideshow.htm";s:7:"content";s:2860:"==
 <div class="lt-row row">
   <div class="lt-col col s12">
     <div class="lt-slider slider fullscreen">
@@ -6,7 +6,6 @@
         <li>
           <img src="{{ 'assets/img/pages/home/slideshow/home_tv_install_nj.jpg'|theme }}" alt="image">
           <div class="caption center-align">
-         
             <h2 class="lt-slider-title">Free Bracket w/ Install!</h2>
             <h5 class="lt-slider-subtitle">Get your quote now!</h5>
             <img class="free-bracket-image" src="{{ 'assets/img/pages/home/slideshow/free_bracket.png'|theme }}" alt="Free Bracket with TV Install">
@@ -64,14 +63,13 @@ img.free-bracket-image {
     width: 300px !important;
 }}
 
-</style>";s:5:"mtime";i:1481181162;s:6:"markup";s:2867:"<div class="lt-row row">
+</style>";s:5:"mtime";i:1483586869;s:6:"markup";s:2856:"<div class="lt-row row">
   <div class="lt-col col s12">
     <div class="lt-slider slider fullscreen">
       <ul class="slides">
         <li>
           <img src="{{ 'assets/img/pages/home/slideshow/home_tv_install_nj.jpg'|theme }}" alt="image">
           <div class="caption center-align">
-         
             <h2 class="lt-slider-title">Free Bracket w/ Install!</h2>
             <h5 class="lt-slider-subtitle">Get your quote now!</h5>
             <img class="free-bracket-image" src="{{ 'assets/img/pages/home/slideshow/free_bracket.png'|theme }}" alt="Free Bracket with TV Install">

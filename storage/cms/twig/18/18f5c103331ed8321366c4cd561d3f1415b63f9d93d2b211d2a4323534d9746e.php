@@ -35,6 +35,8 @@ class __TwigTemplate_f9772c81860a0c8850d36ddaa045bb65d390cbb94de4cfbb7c80d4fe821
             echo "\"></script>
 ";
         }
+        // line 9
+        echo "<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>";
     }
 
     public function getTemplateName()
@@ -49,7 +51,7 @@ class __TwigTemplate_f9772c81860a0c8850d36ddaa045bb65d390cbb94de4cfbb7c80d4fe821
 
     public function getDebugInfo()
     {
-        return array (  34 => 7,  31 => 6,  29 => 5,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  39 => 9,  34 => 7,  31 => 6,  29 => 5,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -69,6 +71,7 @@ class __TwigTemplate_f9772c81860a0c8850d36ddaa045bb65d390cbb94de4cfbb7c80d4fe821
 {% if this.theme.load_owl_carousel %}
   <!-- <script src=\"https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js\"></script> -->
   <script src=\"{{ 'assets/js/owl.carousel.min.js'|theme }}\"></script>
-{% endif %}", "/Users/yogeshpatel/web/tvinstallnj/themes/laratify-octobercms-octaskin/partials/_addons/js.htm", "");
+{% endif %}
+<script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\" integrity=\"sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa\" crossorigin=\"anonymous\"></script>", "/Users/yogeshpatel/web/tvinstallnj/themes/laratify-octobercms-octaskin/partials/_addons/js.htm", "");
     }
 }

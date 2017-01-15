@@ -1,7 +1,9 @@
-1483585725a:1:{s:12:"getquote.htm";a:10:{s:8:"fileName";s:12:"getquote.htm";s:7:"content";s:701:"title = "Get Quote"
+1484457566a:1:{s:12:"getquote.htm";a:12:{s:8:"fileName";s:12:"getquote.htm";s:7:"content";s:980:"title = "Get Quote"
 url = "/getquote"
 layout = "octaskin"
 description = "Looking for a cheap and affordable price to mount your TV in New Jersey? Look no further, call or fill out our form to receive an instant quote!"
+meta_title = "Get quote for tv installation and tv mounting service in New Jersey."
+meta_description = "Looking for a cheap and affordable price to mount your tv installation and tv mounting service in NJ? Look no further, call or fill out our form to receive an instant quote!"
 is_hidden = 0
 ==
 <section id="lt-header" class="lt-section lt-section-fullwidth section">
@@ -18,7 +20,7 @@ is_hidden = 0
       {% partial "pages-contact/mainpage" %}
     </div>
   </div>
-</section>";s:5:"mtime";i:1481180943;s:6:"markup";s:465:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
+</section>";s:5:"mtime";i:1484452205;s:6:"markup";s:465:"<section id="lt-header" class="lt-section lt-section-fullwidth section">
   <div class="lt-container container">
     <div class="lt-content lt-header-content">
       {% partial "pages-contact/header" %}
@@ -32,4 +34,4 @@ is_hidden = 0
       {% partial "pages-contact/mainpage" %}
     </div>
   </div>
-</section>";s:4:"code";N;s:5:"title";s:9:"Get Quote";s:3:"url";s:9:"/getquote";s:6:"layout";s:8:"octaskin";s:11:"description";s:144:"Looking for a cheap and affordable price to mount your TV in New Jersey? Look no further, call or fill out our form to receive an instant quote!";s:9:"is_hidden";s:1:"0";}}
+</section>";s:4:"code";N;s:5:"title";s:9:"Get Quote";s:3:"url";s:9:"/getquote";s:6:"layout";s:8:"octaskin";s:11:"description";s:144:"Looking for a cheap and affordable price to mount your TV in New Jersey? Look no further, call or fill out our form to receive an instant quote!";s:10:"meta_title";s:68:"Get quote for tv installation and tv mounting service in New Jersey.";s:16:"meta_description";s:173:"Looking for a cheap and affordable price to mount your tv installation and tv mounting service in NJ? Look no further, call or fill out our form to receive an instant quote!";s:9:"is_hidden";s:1:"0";}}

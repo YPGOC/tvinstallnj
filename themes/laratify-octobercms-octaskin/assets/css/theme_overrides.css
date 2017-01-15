@@ -18,7 +18,58 @@
 	margin-bottom: 0;
 	padding-top: 3px;
 }
-
 .phone-number p{
 	font-size: 1.8em;
+}
+
+.side_button {
+    transform: rotate(-90deg);
+    position: fixed;
+    right: 0px;
+    font-family: verdana;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background: rgb(255, 87, 34);
+    z-index: 999;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
+    margin-right: -51px;
+    margin-top: -18px;
+}
+
+.request_call {
+    padding: 7px 15px;
+    top: 35%;
+}
+
+.get_quotes {
+    padding: 7px 30px;
+    top: 60%;
+}
+
+iframe#JotFormIFrame-63541219480151 {
+    max-height: 530px;
+}
+
+div#callModal {
+    max-height: 90%;
+}
+
+div#quoteModal {
+    max-height: 90%;
+}
+
+.hiw-information li {
+    list-style-type: initial;
+    list-style-position: inside;
+    font-size: 1.68em;
+    margin-bottom: 12px;
+    font-weight: 300;
+    color: #686868;
+}
+
+.hiw-text {
+    font-size: 1.53em;
 }

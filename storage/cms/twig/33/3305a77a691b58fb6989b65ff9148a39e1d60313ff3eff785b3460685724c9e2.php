@@ -26,11 +26,10 @@ class __TwigTemplate_566c3db64202b536d54145a4794046321aae8d78cd20a2f563b929ae3b5
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/slideshow/home_tv_install_nj.jpg");
         echo "\" alt=\"image\">
           <div class=\"caption center-align\">
-         
             <h2 class=\"lt-slider-title\">Free Bracket w/ Install!</h2>
             <h5 class=\"lt-slider-subtitle\">Get your quote now!</h5>
             <img class=\"free-bracket-image\" src=\"";
-        // line 11
+        // line 10
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/slideshow/free_bracket.png");
         echo "\" alt=\"Free Bracket with TV Install\">
             <div class=\"lt-slider-button\">
@@ -43,7 +42,7 @@ class __TwigTemplate_566c3db64202b536d54145a4794046321aae8d78cd20a2f563b929ae3b5
         </li>
         <li>
           <img src=\"";
-        // line 21
+        // line 20
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/slideshow/wall_mounted_tv.jpg");
         echo "\" alt=\"image\">
           <div class=\"caption center-align\">
@@ -59,7 +58,7 @@ class __TwigTemplate_566c3db64202b536d54145a4794046321aae8d78cd20a2f563b929ae3b5
         </li>
         <li>
           <img src=\"";
-        // line 34
+        // line 33
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/img/pages/home/slideshow/fireplace_tv_install.jpg");
         echo "\" alt=\"image\">
           <div class=\"caption center-align\">
@@ -108,7 +107,7 @@ img.free-bracket-image {
 
     public function getDebugInfo()
     {
-        return array (  63 => 34,  47 => 21,  34 => 11,  26 => 6,  19 => 1,);
+        return array (  62 => 33,  46 => 20,  33 => 10,  26 => 6,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -128,7 +127,6 @@ img.free-bracket-image {
         <li>
           <img src=\"{{ 'assets/img/pages/home/slideshow/home_tv_install_nj.jpg'|theme }}\" alt=\"image\">
           <div class=\"caption center-align\">
-         
             <h2 class=\"lt-slider-title\">Free Bracket w/ Install!</h2>
             <h5 class=\"lt-slider-subtitle\">Get your quote now!</h5>
             <img class=\"free-bracket-image\" src=\"{{ 'assets/img/pages/home/slideshow/free_bracket.png'|theme }}\" alt=\"Free Bracket with TV Install\">

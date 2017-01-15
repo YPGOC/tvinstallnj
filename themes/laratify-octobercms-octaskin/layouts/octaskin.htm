@@ -44,9 +44,29 @@ description = "Octaskin Layout"
       </style>
     {% endif %}
   <link href="{{ 'assets/css/theme_overrides.css'|theme }}" rel="stylesheet">
-    <script src="https://form.jotform.com/static/feedback2.js?3.3.REV" type="text/javascript"> new JotformFeedback({ formId: "63541219480151", buttonText: "Request a Call", base: "https://form.jotform.com/", background: "#ff5722", fontColor: "#FFFFFF", buttonSide: "right", buttonAlign: "center", type: false, width: 600, height: 500 }); </script>
+
+
   </head>
   <body class="lt-theme-{{ this.theme.config.code }} lt-layout-{{ this.layout.id }} lt-page-{{ this.page.id }}">
+  <a class="side_button request_call lt-modal-trigger" href="#callModal" style="">Request a Call</a>
+  <a class="side_button get_quotes lt-modal-trigger" href="#quoteModal" style="">Get Quote</a>
+
+<!-- Call Modal -->
+
+<div id="callModal" class="modal">
+  <div class="modal-content">
+      <iframe id="JotFormIFrame-70138461945156" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.com/70138461945156" frameborder="0" style="width:100%; height:539px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> window.handleIFrameMessage = function(e) { var args = e.data.split(":"); var iframe = false; if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf("?") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById("JotFormIFrame-" + args[2]); } else { ifr = document.getElementById("JotFormIFrame"); } var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
+  <div id="quoteModal" class="modal">
+  <div class="modal-content">
+      <iframe id="JotFormIFrame-70038402953149" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="https://form.jotform.com/70038402953149" frameborder="0" style="width:100%; height:539px; border:none;" scrolling="no"> </iframe> <script type="text/javascript"> window.handleIFrameMessage = function(e) { var args = e.data.split(":"); var iframe = false; if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf("?") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById("JotFormIFrame-" + args[2]); } else { ifr = document.getElementById("JotFormIFrame"); } var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
     <div id="lt-page-surround">
       <section id="lt-navigation" class="lt-section section lt-no-background">
         <div class="lt-row row">

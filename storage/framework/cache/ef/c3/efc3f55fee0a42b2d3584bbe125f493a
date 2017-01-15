@@ -1,4 +1,4 @@
-1483585725a:1:{s:14:"_addons/js.htm";a:5:{s:8:"fileName";s:14:"_addons/js.htm";s:7:"content";s:443:"{% if this.theme.load_wow_js %}
+1484457566a:1:{s:14:"_addons/js.htm";a:5:{s:8:"fileName";s:14:"_addons/js.htm";s:7:"content";s:642:"{% if this.theme.load_wow_js %}
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.0/wow.min.js"></script> -->
   <script src="{{ 'assets/js/wow.min.js'|theme }}"></script>
 {% endif %}
@@ -6,11 +6,12 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script> -->
   <script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
 {% endif %}
-";s:5:"mtime";i:1481319027;s:6:"markup";s:442:"{% if this.theme.load_wow_js %}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>";s:5:"mtime";i:1484442666;s:6:"markup";s:642:"{% if this.theme.load_wow_js %}
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.0/wow.min.js"></script> -->
   <script src="{{ 'assets/js/wow.min.js'|theme }}"></script>
 {% endif %}
 {% if this.theme.load_owl_carousel %}
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.6/owl.carousel.min.js"></script> -->
   <script src="{{ 'assets/js/owl.carousel.min.js'|theme }}"></script>
-{% endif %}";s:4:"code";N;}}
+{% endif %}
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>";s:4:"code";N;}}

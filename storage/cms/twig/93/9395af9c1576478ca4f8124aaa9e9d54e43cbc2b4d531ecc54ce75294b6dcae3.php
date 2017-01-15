@@ -135,44 +135,64 @@ class __TwigTemplate_b4b91eae0d35bb769190d3dd7defb571555771d73c3056bf9cb407e89d0
         echo "  <link href=\"";
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter("assets/css/theme_overrides.css");
         echo "\" rel=\"stylesheet\">
-    <script src=\"https://form.jotform.com/static/feedback2.js?3.3.REV\" type=\"text/javascript\"> new JotformFeedback({ formId: \"63541219480151\", buttonText: \"Request a Call\", base: \"https://form.jotform.com/\", background: \"#ff5722\", fontColor: \"#FFFFFF\", buttonSide: \"right\", buttonAlign: \"center\", type: false, width: 600, height: 500 }); </script>
+
+
   </head>
   <body class=\"lt-theme-";
-        // line 47
+        // line 48
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "config", array()), "code", array()), "html", null, true);
         echo " lt-layout-";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "layout", array()), "id", array()), "html", null, true);
         echo " lt-page-";
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "page", array()), "id", array()), "html", null, true);
         echo "\">
+  <a class=\"side_button request_call lt-modal-trigger\" href=\"#callModal\" style=\"\">Request a Call</a>
+  <a class=\"side_button get_quotes lt-modal-trigger\" href=\"#quoteModal\" style=\"\">Get Quote</a>
+
+<!-- Call Modal -->
+
+<div id=\"callModal\" class=\"modal\">
+  <div class=\"modal-content\">
+      <iframe id=\"JotFormIFrame-70138461945156\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"https://form.jotform.com/70138461945156\" frameborder=\"0\" style=\"width:100%; height:539px; border:none;\" scrolling=\"no\"> </iframe> <script type=\"text/javascript\"> window.handleIFrameMessage = function(e) { var args = e.data.split(\":\"); var iframe = false; if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { iframe = document.getElementById(\"JotFormIFrame\"); } if (!iframe) return; switch (args[0]) { case \"scrollIntoView\": iframe.scrollIntoView(); break; case \"setHeight\": iframe.style.height = args[1] + \"px\"; break; case \"collapseErrorPage\": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + \"px\"; } break; case \"reloadPage\": window.location.reload(); break; } var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false; if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) { var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\"); } }; if (window.addEventListener) { window.addEventListener(\"message\", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent(\"onmessage\", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf(\"?\") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { ifr = document.getElementById(\"JotFormIFrame\"); } var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src + \"?\" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
+  <div id=\"quoteModal\" class=\"modal\">
+  <div class=\"modal-content\">
+      <iframe id=\"JotFormIFrame-70038402953149\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"https://form.jotform.com/70038402953149\" frameborder=\"0\" style=\"width:100%; height:539px; border:none;\" scrolling=\"no\"> </iframe> <script type=\"text/javascript\"> window.handleIFrameMessage = function(e) { var args = e.data.split(\":\"); var iframe = false; if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { iframe = document.getElementById(\"JotFormIFrame\"); } if (!iframe) return; switch (args[0]) { case \"scrollIntoView\": iframe.scrollIntoView(); break; case \"setHeight\": iframe.style.height = args[1] + \"px\"; break; case \"collapseErrorPage\": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + \"px\"; } break; case \"reloadPage\": window.location.reload(); break; } var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false; if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) { var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\"); } }; if (window.addEventListener) { window.addEventListener(\"message\", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent(\"onmessage\", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf(\"?\") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { ifr = document.getElementById(\"JotFormIFrame\"); } var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src + \"?\" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
     <div id=\"lt-page-surround\">
       <section id=\"lt-navigation\" class=\"lt-section section lt-no-background\">
         <div class=\"lt-row row\">
           <div class=\"lt-content lt-navigation-content\">
             ";
-        // line 52
+        // line 72
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("pages-all/navigation"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 53
+        // line 73
         echo "          </div>
         </div>
       </section>
 
       ";
-        // line 57
+        // line 77
         echo $this->env->getExtension('CMS')->pageFunction();
-        // line 58
+        // line 78
         echo "
       <section id=\"lt-footer\" class=\"lt-section section\">
         <div class=\"lt-container container\">
           <div class=\"lt-content lt-footer-content\">
             ";
-        // line 62
+        // line 82
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("pages-all/footer"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 63
+        // line 83
         echo "          </div>
         </div>
       </section>
@@ -181,33 +201,33 @@ class __TwigTemplate_b4b91eae0d35bb769190d3dd7defb571555771d73c3056bf9cb407e89d0
         <div class=\"lt-container container\">
           <div class=\"lt-content lt-copyright-content\">
             ";
-        // line 70
+        // line 90
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("pages-all/copyright"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 71
+        // line 91
         echo "          </div>
         </div>
       </section>
     </div>
 
     <!-- <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/";
-        // line 76
+        // line 96
         echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "jQuery_version", array()), "html", null, true);
         echo "/jquery.min.js\"></script> -->
     <script src=\"";
-        // line 77
+        // line 97
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/js/jquery.min.js", 1 => "assets/js/theme.js"));
         echo "\"></script>
     <script src=\"";
-        // line 78
+        // line 98
         echo $this->env->getExtension('Cms\Twig\Extension')->themeFilter(array(0 => "assets/js/materialize.min.js", 1 => "assets/js/theme.js"));
         echo "\"></script>
 
     ";
-        // line 80
+        // line 100
         if ($this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "load_octobercms_framework", array())) {
-            // line 81
+            // line 101
             echo "      ";
             echo '<script src="'. Request::getBasePath()
                 .'/modules/system/assets/js/framework.js"></script>'.PHP_EOL;
@@ -215,37 +235,37 @@ class __TwigTemplate_b4b91eae0d35bb769190d3dd7defb571555771d73c3056bf9cb407e89d0
                     .'/modules/system/assets/js/framework.extras.js"></script>'.PHP_EOL;
             echo '<link rel="stylesheet" property="stylesheet" href="'. Request::getBasePath()
                     .'/modules/system/assets/css/framework.extras.css">'.PHP_EOL;
-            // line 82
+            // line 102
             echo "    ";
         }
-        // line 83
+        // line 103
         echo "
     ";
-        // line 84
+        // line 104
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('CMS')->partialFunction("_addons/js"        , $context['__cms_partial_params']        );
         unset($context['__cms_partial_params']);
-        // line 85
+        // line 105
         echo "
     ";
-        // line 86
+        // line 106
         echo $this->env->getExtension('CMS')->assetsFunction('js');
         echo $this->env->getExtension('CMS')->displayBlock('scripts');
-        // line 87
+        // line 107
         echo "
     ";
-        // line 88
+        // line 108
         if ($this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "custom_js", array())) {
-            // line 89
+            // line 109
             echo "      <script>
       ";
-            // line 90
+            // line 110
             echo twig_escape_filter($this->env, $this->getAttribute($this->getAttribute(($context["this"] ?? null), "theme", array()), "custom_js", array()), "html", null, true);
             echo "
       </script>
     ";
         }
-        // line 93
+        // line 113
         echo "  </body>
 </html>";
     }
@@ -262,7 +282,7 @@ class __TwigTemplate_b4b91eae0d35bb769190d3dd7defb571555771d73c3056bf9cb407e89d0
 
     public function getDebugInfo()
     {
-        return array (  249 => 93,  243 => 90,  240 => 89,  238 => 88,  235 => 87,  232 => 86,  229 => 85,  225 => 84,  222 => 83,  219 => 82,  211 => 81,  209 => 80,  204 => 78,  200 => 77,  196 => 76,  189 => 71,  185 => 70,  176 => 63,  172 => 62,  166 => 58,  164 => 57,  158 => 53,  154 => 52,  142 => 47,  135 => 44,  129 => 41,  126 => 40,  124 => 39,  121 => 38,  118 => 37,  115 => 36,  111 => 35,  106 => 33,  103 => 32,  97 => 30,  95 => 29,  92 => 28,  87 => 26,  84 => 25,  82 => 24,  79 => 23,  74 => 21,  71 => 20,  69 => 19,  66 => 18,  61 => 16,  56 => 15,  54 => 14,  49 => 12,  45 => 11,  39 => 10,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
+        return array (  269 => 113,  263 => 110,  260 => 109,  258 => 108,  255 => 107,  252 => 106,  249 => 105,  245 => 104,  242 => 103,  239 => 102,  231 => 101,  229 => 100,  224 => 98,  220 => 97,  216 => 96,  209 => 91,  205 => 90,  196 => 83,  192 => 82,  186 => 78,  184 => 77,  178 => 73,  174 => 72,  143 => 48,  135 => 44,  129 => 41,  126 => 40,  124 => 39,  121 => 38,  118 => 37,  115 => 36,  111 => 35,  106 => 33,  103 => 32,  97 => 30,  95 => 29,  92 => 28,  87 => 26,  84 => 25,  82 => 24,  79 => 23,  74 => 21,  71 => 20,  69 => 19,  66 => 18,  61 => 16,  56 => 15,  54 => 14,  49 => 12,  45 => 11,  39 => 10,  35 => 9,  31 => 8,  27 => 7,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -319,9 +339,29 @@ class __TwigTemplate_b4b91eae0d35bb769190d3dd7defb571555771d73c3056bf9cb407e89d0
       </style>
     {% endif %}
   <link href=\"{{ 'assets/css/theme_overrides.css'|theme }}\" rel=\"stylesheet\">
-    <script src=\"https://form.jotform.com/static/feedback2.js?3.3.REV\" type=\"text/javascript\"> new JotformFeedback({ formId: \"63541219480151\", buttonText: \"Request a Call\", base: \"https://form.jotform.com/\", background: \"#ff5722\", fontColor: \"#FFFFFF\", buttonSide: \"right\", buttonAlign: \"center\", type: false, width: 600, height: 500 }); </script>
+
+
   </head>
   <body class=\"lt-theme-{{ this.theme.config.code }} lt-layout-{{ this.layout.id }} lt-page-{{ this.page.id }}\">
+  <a class=\"side_button request_call lt-modal-trigger\" href=\"#callModal\" style=\"\">Request a Call</a>
+  <a class=\"side_button get_quotes lt-modal-trigger\" href=\"#quoteModal\" style=\"\">Get Quote</a>
+
+<!-- Call Modal -->
+
+<div id=\"callModal\" class=\"modal\">
+  <div class=\"modal-content\">
+      <iframe id=\"JotFormIFrame-70138461945156\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"https://form.jotform.com/70138461945156\" frameborder=\"0\" style=\"width:100%; height:539px; border:none;\" scrolling=\"no\"> </iframe> <script type=\"text/javascript\"> window.handleIFrameMessage = function(e) { var args = e.data.split(\":\"); var iframe = false; if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { iframe = document.getElementById(\"JotFormIFrame\"); } if (!iframe) return; switch (args[0]) { case \"scrollIntoView\": iframe.scrollIntoView(); break; case \"setHeight\": iframe.style.height = args[1] + \"px\"; break; case \"collapseErrorPage\": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + \"px\"; } break; case \"reloadPage\": window.location.reload(); break; } var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false; if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) { var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\"); } }; if (window.addEventListener) { window.addEventListener(\"message\", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent(\"onmessage\", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf(\"?\") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { ifr = document.getElementById(\"JotFormIFrame\"); } var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src + \"?\" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
+  <div id=\"quoteModal\" class=\"modal\">
+  <div class=\"modal-content\">
+      <iframe id=\"JotFormIFrame-70038402953149\" onload=\"window.parent.scrollTo(0,0)\" allowtransparency=\"true\" src=\"https://form.jotform.com/70038402953149\" frameborder=\"0\" style=\"width:100%; height:539px; border:none;\" scrolling=\"no\"> </iframe> <script type=\"text/javascript\"> window.handleIFrameMessage = function(e) { var args = e.data.split(\":\"); var iframe = false; if (args.length > 2) { iframe = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { iframe = document.getElementById(\"JotFormIFrame\"); } if (!iframe) return; switch (args[0]) { case \"scrollIntoView\": iframe.scrollIntoView(); break; case \"setHeight\": iframe.style.height = args[1] + \"px\"; break; case \"collapseErrorPage\": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + \"px\"; } break; case \"reloadPage\": window.location.reload(); break; } var isJotForm = (e.origin.indexOf(\"jotform\") > -1) ? true : false; if(isJotForm && \"contentWindow\" in iframe && \"postMessage\" in iframe.contentWindow) { var urls = {\"docurl\":encodeURIComponent(document.URL),\"referrer\":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({\"type\":\"urls\",\"value\":urls}), \"*\"); } }; if (window.addEventListener) { window.addEventListener(\"message\", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent(\"onmessage\", handleIFrameMessage); } if(window.location.href && window.location.href.indexOf(\"?\") > -1) { var ifr = false; if (args.length > 2) { ifr = document.getElementById(\"JotFormIFrame-\" + args[2]); } else { ifr = document.getElementById(\"JotFormIFrame\"); } var get = window.location.href.substr(window.location.href.indexOf(\"?\") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf(\"?\") > -1 ? src + \"&\" + get : src + \"?\" + get; ifr.src = src; } } </script>
+  </div>
+</div>
+
+  <!-- Call Modal End -->
     <div id=\"lt-page-surround\">
       <section id=\"lt-navigation\" class=\"lt-section section lt-no-background\">
         <div class=\"lt-row row\">
